@@ -3,7 +3,7 @@ fn main() {
 
     let v2 = v;
 
-    display(v2);
+    display(v2.clone());
 
     println!("In main {:?}", v2);
 }
